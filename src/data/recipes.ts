@@ -1,7 +1,8 @@
+
 export const recipes = {
   "paneer-butter-masala": {
     title: "Paneer Butter Masala",
-    heroImage: "https://images.unsplash.com/photo-1482938289607-e212871fec22?auto=format&fit=crop&w=1920&q=80",
+    heroImage: "/lovable-uploads/5289a9f4-ff2b-4fec-8306-c5db6abf0696.png",
     prepTime: "15 min",
     cookTime: "20 min",
     servings: 4,
@@ -65,7 +66,7 @@ export const recipes = {
   },
   "chole-chickpea-curry": {
     title: "Chole (Chickpea Curry)",
-    heroImage: "https://images.unsplash.com/photo-1500673922987-e212871fec22?auto=format&fit=crop&w=1920&q=80",
+    heroImage: "/lovable-uploads/44adb399-03c9-42c4-baab-aaf0e57be2f1.png",
     prepTime: "30 min",
     cookTime: "45 min",
     servings: 4,
@@ -136,7 +137,7 @@ export const recipes = {
   },
   "dal-makhani": {
     title: "Dal Makhani",
-    heroImage: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+    heroImage: "/lovable-uploads/45ebd9c2-3d07-430d-9c0f-7af980833137.png",
     prepTime: "30 min (plus overnight soaking)",
     cookTime: "50 min",
     servings: 6,
@@ -199,7 +200,7 @@ export const recipes = {
   },
   "aloo-gobi": {
     title: "Aloo Gobi (Potato & Cauliflower Curry)",
-    heroImage: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=1920&q=80",
+    heroImage: "/lovable-uploads/eb17b1f2-0eea-4387-8b62-1d3679e637c5.png",
     prepTime: "15 min",
     cookTime: "30 min",
     servings: 4,
