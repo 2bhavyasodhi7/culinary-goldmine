@@ -1,4 +1,3 @@
-
 export const recipes = {
   "paneer-butter-masala": {
     title: "Paneer Butter Masala",
@@ -57,7 +56,12 @@ export const recipes = {
       fiber: 2
     },
     notes: "For a vegan version, replace paneer with firm tofu and use coconut cream instead of dairy cream. You can also add peas or bell peppers for extra vegetables.",
-    tags: ["Vegetarian", "Indian", "Main Course"]
+    tags: ["Vegetarian", "Indian", "Main Course"],
+    tips: [
+      "For the best texture, ensure that you don't overcook the paneer as it can become rubbery.",
+      "Adding a pinch of sugar helps balance the acidity of the tomatoes.",
+      "You can make this dish ahead and reheat before serving - the flavors develop even more with time."
+    ]
   },
   "chole-chickpea-curry": {
     title: "Chole (Chickpea Curry)",
@@ -123,7 +127,12 @@ export const recipes = {
       fiber: 8
     },
     notes: "For extra flavor, add a squeeze of lemon juice just before serving. You can also use canned chickpeas to save time, but the flavor is best with dried chickpeas soaked overnight.",
-    tags: ["Vegan", "Indian", "Main Course"]
+    tags: ["Vegan", "Indian", "Main Course"],
+    tips: [
+      "Using dried chickpeas soaked overnight gives the best flavor and texture.",
+      "Adding a tea bag while cooking the chickpeas gives them a darker color, similar to restaurant-style.",
+      "A squeeze of lemon juice just before serving brightens all the flavors."
+    ]
   },
   "dal-makhani": {
     title: "Dal Makhani",
@@ -181,7 +190,12 @@ export const recipes = {
       fiber: 12
     },
     notes: "For the authentic restaurant-style dal makhani, simmer on very low heat for at least 2-3 hours, adding water as needed. The longer it cooks, the better the flavor.",
-    tags: ["Vegetarian", "Indian", "Main Course"]
+    tags: ["Vegetarian", "Indian", "Main Course"],
+    tips: [
+      "The secret to authentic dal makhani is slow cooking - the longer, the better.",
+      "Adding cream at the end gives it that silky, luxurious texture.",
+      "A piece of charcoal can be used to give a smoky flavor to the final dish."
+    ]
   },
   "aloo-gobi": {
     title: "Aloo Gobi (Potato & Cauliflower Curry)",
@@ -232,7 +246,12 @@ export const recipes = {
       fiber: 6
     },
     notes: "For extra crispiness, don't cover the pan during cooking. This will help the vegetables get a nice roasted texture instead of becoming too soft.",
-    tags: ["Vegan", "Indian", "Side Dish"]
+    tags: ["Vegan", "Indian", "Side Dish"],
+    tips: [
+      "Par-boiling the potatoes for 5 minutes before adding them to the curry helps them cook evenly with the cauliflower.",
+      "For a drier texture, cook uncovered on medium heat.",
+      "Add a sprinkle of amchur (dried mango powder) for a tangy twist."
+    ]
   },
   "bhindi-masala": {
     title: "Bhindi Masala (Spiced Okra Stir-Fry)",
@@ -293,7 +312,12 @@ export const recipes = {
       fiber: 5
     },
     notes: "The key to non-sticky okra is to make sure it's completely dry before cooking. You can also add a teaspoon of lemon juice while cooking to reduce stickiness.",
-    tags: ["Vegan", "Indian", "Side Dish"]
+    tags: ["Vegan", "Indian", "Side Dish"],
+    tips: [
+      "The key to non-sticky okra is to make sure it's completely dry before cooking.",
+      "Adding a teaspoon of lemon juice while cooking reduces stickiness.",
+      "For extra flavor, try adding a pinch of carom seeds (ajwain) with the cumin."
+    ]
   },
   "chicken-curry": {
     title: "Chicken Curry (Desi Dhaba Style)",
@@ -351,7 +375,12 @@ export const recipes = {
       fiber: 2
     },
     notes: "For extra flavor, you can add 1-2 whole green chilies and a few curry leaves to the curry. Cooking the chicken with bones adds more depth to the flavor.",
-    tags: ["Non-Veg", "Indian", "Main Course"]
+    tags: ["Non-Veg", "Indian", "Main Course"],
+    tips: [
+      "Marinating the chicken for at least 30 minutes ensures it absorbs all the flavors.",
+      "Using bone-in chicken pieces adds more depth to the curry.",
+      "Adding a splash of coconut milk at the end gives a rich, creamy finish."
+    ]
   },
   "matar-paneer": {
     title: "Matar Paneer (Peas & Cottage Cheese Curry)",
@@ -409,7 +438,12 @@ export const recipes = {
       fiber: 4
     },
     notes: "You can use frozen peas for convenience. To make the gravy richer, add 2 tablespoons of cashew paste or a splash of cream at the end.",
-    tags: ["Vegetarian", "Indian", "Main Course"]
+    tags: ["Vegetarian", "Indian", "Main Course"],
+    tips: [
+      "Frozen peas work great in this recipe and don't need to be thawed beforehand.",
+      "For a richer gravy, add 2 tablespoons of cashew paste.",
+      "Adding a pinch of sugar enhances the sweetness of the peas."
+    ]
   },
   "fish-curry": {
     title: "Fish Curry (Bengali Style - Machher Jhol)",
@@ -464,7 +498,12 @@ export const recipes = {
       fiber: 2
     },
     notes: "For an authentic Bengali flavor, add 1-2 green chilies and a few curry leaves to the curry. The distinctive flavor comes from the mustard oil, so try not to substitute it.",
-    tags: ["Non-Veg", "Indian", "Main Course"]
+    tags: ["Non-Veg", "Indian", "Main Course"],
+    tips: [
+      "Mustard oil gives the authentic flavor, so try not to substitute it.",
+      "Adding 1-2 green chilies gives a nice heat to the curry.",
+      "Letting the fish simmer gently prevents it from breaking apart."
+    ]
   },
   "rajma": {
     title: "Rajma (Red Kidney Bean Curry)",
@@ -520,6 +559,11 @@ export const recipes = {
       fiber: 10
     },
     notes: "For the authentic rajma flavor, mash some of the cooked beans and add them back to thicken the gravy. A dash of lemon juice at the end enhances all the flavors.",
-    tags: ["Vegan", "Indian", "Main Course"]
+    tags: ["Vegan", "Indian", "Main Course"],
+    tips: [
+      "Mashing some of the cooked rajma helps thicken the gravy.",
+      "A dash of lemon juice at the end enhances all the flavors.",
+      "This dish tastes even better the next day as the beans absorb more flavor."
+    ]
   }
 };
