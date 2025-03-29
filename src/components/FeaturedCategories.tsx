@@ -7,26 +7,26 @@ const categories = [
   {
     title: "Breakfast",
     image: "https://images.unsplash.com/photo-1482938289607-e212871fec22?auto=format&fit=crop&w=600&h=400&q=80",
-    count: 24,
-    link: "/recipes/breakfast"
+    count: 8,
+    link: "/recipes" // All routes now point to the recipes page since we don't have subcategory pages yet
   },
   {
     title: "Lunch",
     image: "https://images.unsplash.com/photo-1500673922987-e212871fec22?auto=format&fit=crop&w=600&h=400&q=80",
-    count: 18,
-    link: "/recipes/lunch"
+    count: 12,
+    link: "/recipes"
   },
   {
     title: "Dinner",
     image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&h=400&q=80",
-    count: 32,
-    link: "/recipes/dinner"
+    count: 15,
+    link: "/recipes"
   },
   {
     title: "Desserts",
     image: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=600&h=400&q=80",
-    count: 16,
-    link: "/recipes/desserts"
+    count: 10,
+    link: "/recipes"
   }
 ];
 

@@ -7,100 +7,19 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Separator } from "@/components/ui/separator";
 import { Search, Filter } from 'lucide-react';
+import { recipes } from '@/data/recipes';
 
-// Sample recipe data
-const allRecipes = [
-  {
-    id: "1",
-    title: "Paneer Butter Masala",
-    image: "https://images.unsplash.com/photo-1482938289607-e212871fec22?auto=format&fit=crop&w=600&h=400&q=80",
-    prepTime: "35 min",
-    rating: 4.8,
-    tags: ["Vegetarian", "Indian"],
-    slug: "paneer-butter-masala",
-    category: "Indian"
-  },
-  {
-    id: "2",
-    title: "Chole (Chickpea Curry)",
-    image: "https://images.unsplash.com/photo-1500673922987-e212871fec22?auto=format&fit=crop&w=600&h=400&q=80",
-    prepTime: "45 min",
-    rating: 4.6,
-    tags: ["Vegan", "Indian"],
-    slug: "chole-chickpea-curry",
-    category: "Indian"
-  },
-  {
-    id: "3",
-    title: "Dal Makhani",
-    image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&h=400&q=80",
-    prepTime: "50 min",
-    rating: 4.9,
-    tags: ["Vegetarian", "Indian"],
-    slug: "dal-makhani",
-    category: "Indian"
-  },
-  {
-    id: "4",
-    title: "Aloo Gobi (Potato & Cauliflower Curry)",
-    image: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=600&h=400&q=80",
-    prepTime: "30 min",
-    rating: 4.5,
-    tags: ["Vegan", "Indian"],
-    slug: "aloo-gobi",
-    category: "Indian"
-  },
-  {
-    id: "5",
-    title: "Bhindi Masala (Spiced Okra Stir-Fry)",
-    image: "https://images.unsplash.com/photo-1486718448742-163732cd1544?auto=format&fit=crop&w=600&h=400&q=80",
-    prepTime: "25 min",
-    rating: 4.3,
-    tags: ["Vegan", "Indian"],
-    slug: "bhindi-masala",
-    category: "Indian"
-  },
-  {
-    id: "6",
-    title: "Chicken Curry (Desi Dhaba Style)",
-    image: "https://images.unsplash.com/photo-1482938289607-e212871fec22?auto=format&fit=crop&w=600&h=400&q=80",
-    prepTime: "40 min",
-    rating: 4.7,
-    tags: ["Non-Veg", "Indian"],
-    slug: "chicken-curry",
-    category: "Indian"
-  },
-  {
-    id: "7",
-    title: "Matar Paneer (Peas & Cottage Cheese Curry)",
-    image: "https://images.unsplash.com/photo-1500673922987-e212871fec22?auto=format&fit=crop&w=600&h=400&q=80",
-    prepTime: "35 min",
-    rating: 4.4,
-    tags: ["Vegetarian", "Indian"],
-    slug: "matar-paneer",
-    category: "Indian"
-  },
-  {
-    id: "8",
-    title: "Fish Curry (Bengali Style - Machher Jhol)",
-    image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&h=400&q=80",
-    prepTime: "45 min",
-    rating: 4.6,
-    tags: ["Non-Veg", "Indian"],
-    slug: "fish-curry",
-    category: "Indian"
-  },
-  {
-    id: "9",
-    title: "Rajma (Red Kidney Bean Curry)",
-    image: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=600&h=400&q=80",
-    prepTime: "50 min",
-    rating: 4.5,
-    tags: ["Vegan", "Indian"],
-    slug: "rajma",
-    category: "Indian"
-  }
-];
+// Create array from recipes object
+const allRecipes = Object.entries(recipes).map(([slug, recipe]) => ({
+  id: slug,
+  title: recipe.title,
+  image: recipe.heroImage,
+  prepTime: recipe.prepTime,
+  rating: recipe.rating,
+  tags: recipe.tags,
+  slug: slug,
+  category: recipe.category
+}));
 
 // Dietary filter options
 const dietaryFilters = [
@@ -153,7 +72,9 @@ const Recipes = () => {
     // Time filter
     const matchesTime = selectedTime.length === 0 || 
       selectedTime.some(time => {
-        const prepTimeMinutes = parseInt(recipe.prepTime.split(' ')[0]);
+        const prepTimeText = recipe.prepTime.split(' ')[0];
+        const prepTimeMinutes = parseInt(prepTimeText);
+        
         if (time === 'quick') return prepTimeMinutes < 30;
         if (time === 'medium') return prepTimeMinutes >= 30 && prepTimeMinutes <= 45;
         if (time === 'slow') return prepTimeMinutes > 45;
