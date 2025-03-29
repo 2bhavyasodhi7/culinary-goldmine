@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,15 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				gold: {
+					DEFAULT: '#D4AF37',
+					light: '#F5D992',
+					accent: '#FFD700',
+					muted: '#D4AF3755',
+				},
+				dark: '#1A1A1A',
+				ivory: '#F8F5F0',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -84,11 +93,65 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'fade-in': {
+					'0%': {
+						opacity: '0',
+						transform: 'translateY(10px)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'translateY(0)'
+					}
+				},
+				'slide-up': {
+					'0%': {
+						opacity: '0',
+						transform: 'translateY(20px)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'translateY(0)'
+					}
+				},
+				'bounce': {
+					'0%, 100%': {
+						transform: 'translateY(0)'
+					},
+					'50%': {
+						transform: 'translateY(-10px)'
+					}
+				},
+				'pulse': {
+					'0%, 100%': {
+						opacity: '1'
+					},
+					'50%': {
+						opacity: '0.5'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-in': 'fade-in 0.5s ease-out forwards',
+				'slide-up': 'slide-up 0.5s ease-out forwards',
+				'bounce': 'bounce 2s infinite ease-in-out',
+				'pulse': 'pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite'
+			},
+			fontFamily: {
+				'cormorant': ['Cormorant Garamond', 'serif'],
+				'playfair': ['Playfair Display', 'serif'],
+				'eb-garamond': ['EB Garamond', 'serif'],
+				'great-vibes': ['Great Vibes', 'cursive']
+			},
+			backgroundImage: {
+				'gold-gradient': 'linear-gradient(145deg, #D4AF37 0%, #FFD700 100%)',
+				'gold-gradient-hover': 'linear-gradient(145deg, #FFD700 0%, #D4AF37 100%)',
+			},
+			boxShadow: {
+				'gold': '0 4px 12px rgba(212, 175, 55, 0.3)',
+				'gold-hover': '0 6px 20px rgba(212, 175, 55, 0.5)',
 			}
 		}
 	},
