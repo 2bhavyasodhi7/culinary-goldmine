@@ -5,22 +5,34 @@ import { ChevronDown, Clock } from 'lucide-react';
 
 const heroSlides = [
   {
-    image: "https://images.unsplash.com/photo-1482938289607-e212871fec22?auto=format&fit=crop&w=1920&q=80",
-    title: "Weeknight Pasta Perfection",
-    subtitle: "Ready in just 30 minutes",
-    buttonText: "Get Recipe"
+    image: "/lovable-uploads/c8f22b81-1991-4e3f-b4d0-18d662356231.png",
+    title: "Weeknight Dinner Inspiration",
+    subtitle: "Healthy, flavorful meals ready in 30 minutes",
+    buttonText: "Get Recipes"
   },
   {
-    image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
-    title: "5-Ingredient Meals",
-    subtitle: "Simplicity meets extraordinary flavor",
-    buttonText: "Explore Collection"
+    image: "/lovable-uploads/9fd6f58a-cc37-4800-9788-8489ccfa9513.png",
+    title: "Breakfast Delights",
+    subtitle: "Start your day with nutritious & delicious recipes",
+    buttonText: "View Collection"
   },
   {
-    image: "https://images.unsplash.com/photo-1500673922987-e212871fec22?auto=format&fit=crop&w=1920&q=80",
-    title: "Seasonal Specials",
-    subtitle: "Fresh, vibrant & healthy",
-    buttonText: "Discover Now"
+    image: "/lovable-uploads/4820eae1-b17f-4ca3-863b-d05e83b0afc0.png",
+    title: "Lunch Favorites",
+    subtitle: "Quick & filling midday meal ideas",
+    buttonText: "Explore Now"
+  },
+  {
+    image: "/lovable-uploads/68bc7e96-37fc-4b7d-8957-273cc26bdc35.png",
+    title: "Dinner Specialties",
+    subtitle: "Complete meals for the perfect evening",
+    buttonText: "Discover Recipes"
+  },
+  {
+    image: "/lovable-uploads/a2d1b138-d6c7-472f-9b50-a63e8a695423.png",
+    title: "Delightful Desserts",
+    subtitle: "Sweet treats to complete any meal",
+    buttonText: "Find Recipes"
   }
 ];
 
@@ -57,7 +69,7 @@ const Hero = () => {
               className="absolute inset-0 bg-center bg-cover bg-no-repeat"
               style={{ backgroundImage: `url(${slide.image})` }}
             >
-              <div className="absolute inset-0 bg-black bg-opacity-40"></div>
+              <div className="absolute inset-0 bg-black bg-opacity-60"></div>
             </div>
           </div>
         ))}
@@ -65,7 +77,7 @@ const Hero = () => {
       
       {/* Content */}
       <div className="relative h-full flex flex-col items-center justify-center text-white text-center px-4">
-        <div className="bg-black bg-opacity-20 backdrop-blur-sm p-8 rounded-lg max-w-3xl animate-fade-in">
+        <div className="bg-black bg-opacity-40 backdrop-blur-sm p-8 rounded-lg max-w-3xl animate-fade-in">
           <h1 className="text-5xl md:text-6xl font-cormorant font-bold mb-4">
             {heroSlides[currentSlide].title}
           </h1>

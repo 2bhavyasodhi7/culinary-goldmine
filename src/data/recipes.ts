@@ -30,22 +30,22 @@ export const recipes = {
       {
         step: "Fry the Paneer",
         details: "Heat 1 tbsp butter in a pan. Lightly fry paneer cubes until golden brown on the edges. Remove and keep them in warm water (to keep them soft).",
-        image: "https://images.unsplash.com/photo-1482938289607-e212871fec22?auto=format&fit=crop&w=600&h=400&q=80"
+        image: "/lovable-uploads/0b6158ba-6f0e-48a5-bded-90e35ce0331d.png"
       },
       {
         step: "Prepare the Gravy",
         details: "In the same pan, add 1 tbsp butter and sauté onions until golden. Add ginger-garlic paste and cook until the raw smell disappears. Pour in the tomato puree and cook for 5 minutes. Add cashew nut paste and stir well. Add red chili powder, turmeric, coriander powder, and salt. Stir and cook until the mixture thickens.",
-        image: "https://images.unsplash.com/photo-1500673922987-e212871fec22?auto=format&fit=crop&w=600&h=400&q=80"
+        image: "/lovable-uploads/c8f22b81-1991-4e3f-b4d0-18d662356231.png"
       },
       {
         step: "Blend the Gravy",
         details: "Cool the mixture slightly and blend it into a smooth paste. Strain to get a silky texture.",
-        image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&h=400&q=80"
+        image: "/lovable-uploads/c8f22b81-1991-4e3f-b4d0-18d662356231.png"
       },
       {
         step: "Final Cooking",
         details: "Heat the blended gravy in the pan again. Add garam masala, kasuri methi, and fresh cream. Add the fried paneer cubes and simmer for 5 minutes. Serve hot with naan or jeera rice.",
-        image: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=600&h=400&q=80"
+        image: "/lovable-uploads/0b6158ba-6f0e-48a5-bded-90e35ce0331d.png"
       }
     ],
     nutrition: {
@@ -96,27 +96,27 @@ export const recipes = {
       {
         step: "Cook Chickpeas",
         details: "Pressure cook chickpeas with bay leaf, black cardamom, and salt for 5 whistles. Drain and keep aside, reserving the water.",
-        image: "https://images.unsplash.com/photo-1500673922987-e212871fec22?auto=format&fit=crop&w=600&h=400&q=80"
+        image: "/lovable-uploads/44adb399-03c9-42c4-baab-aaf0e57be2f1.png"
       },
       {
         step: "Prepare the Masala",
         details: "Heat oil in a pan and add cumin seeds. Add onions and sauté until golden brown. Stir in ginger-garlic paste and cook until fragrant. Add tomato puree and cook until oil separates.",
-        image: "https://images.unsplash.com/photo-1482938289607-e212871fec22?auto=format&fit=crop&w=600&h=400&q=80"
+        image: "/lovable-uploads/c8f22b81-1991-4e3f-b4d0-18d662356231.png"
       },
       {
         step: "Add Spices",
         details: "Add chili powder, turmeric, coriander powder, and chole masala. Cook on low heat for 3 minutes.",
-        image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&h=400&q=80"
+        image: "/lovable-uploads/c8f22b81-1991-4e3f-b4d0-18d662356231.png"
       },
       {
         step: "Simmer with Chickpeas",
         details: "Add cooked chickpeas along with reserved water. Simmer for 10 minutes until thick. Stir in garam masala and mix well.",
-        image: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=600&h=400&q=80"
+        image: "/lovable-uploads/44adb399-03c9-42c4-baab-aaf0e57be2f1.png"
       },
       {
         step: "Garnish & Serve",
         details: "Garnish with chopped coriander and serve with bhature or rice.",
-        image: "https://images.unsplash.com/photo-1486718448742-163732cd1544?auto=format&fit=crop&w=600&h=400&q=80"
+        image: "/lovable-uploads/44adb399-03c9-42c4-baab-aaf0e57be2f1.png"
       }
     ],
     nutrition: {
@@ -164,22 +164,22 @@ export const recipes = {
       {
         step: "Cook Lentils",
         details: "Pressure cook black urad dal and kidney beans with 3 cups water for 6 whistles. Mash slightly and keep aside.",
-        image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&h=400&q=80"
+        image: "/lovable-uploads/45ebd9c2-3d07-430d-9c0f-7af980833137.png"
       },
       {
         step: "Prepare the Masala",
         details: "Heat butter and oil in a pan. Add cumin seeds and let them splutter. Add onions and sauté until golden brown. Stir in ginger-garlic paste and cook until raw smell disappears. Add tomato puree and cook until oil separates.",
-        image: "https://images.unsplash.com/photo-1482938289607-e212871fec22?auto=format&fit=crop&w=600&h=400&q=80"
+        image: "/lovable-uploads/c8f22b81-1991-4e3f-b4d0-18d662356231.png"
       },
       {
         step: "Add Spices & Simmer",
         details: "Add red chili powder, garam masala, and salt. Stir in cooked lentils with some water. Simmer on low heat for 30 minutes, stirring occasionally.",
-        image: "https://images.unsplash.com/photo-1500673922987-e212871fec22?auto=format&fit=crop&w=600&h=400&q=80"
+        image: "/lovable-uploads/45ebd9c2-3d07-430d-9c0f-7af980833137.png"
       },
       {
         step: "Finish with Cream",
         details: "Add fresh cream and stir well. Garnish with coriander and serve with rice or naan.",
-        image: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=600&h=400&q=80"
+        image: "/lovable-uploads/45ebd9c2-3d07-430d-9c0f-7af980833137.png"
       }
     ],
     nutrition: {
@@ -225,17 +225,17 @@ export const recipes = {
       {
         step: "Fry Potatoes & Cauliflower",
         details: "Heat oil in a pan and add cumin seeds. Add potatoes and fry for 5 minutes. Add cauliflower and fry until slightly golden.",
-        image: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=600&h=400&q=80"
+        image: "/lovable-uploads/eb17b1f2-0eea-4387-8b62-1d3679e637c5.png"
       },
       {
         step: "Add Masala",
         details: "Add onions and cook until soft. Stir in ginger-garlic paste and cook until fragrant. Add tomatoes, turmeric, chili powder, and salt.",
-        image: "https://images.unsplash.com/photo-1482938289607-e212871fec22?auto=format&fit=crop&w=600&h=400&q=80"
+        image: "/lovable-uploads/c8f22b81-1991-4e3f-b4d0-18d662356231.png"
       },
       {
         step: "Simmer & Serve",
         details: "Cover and cook on low heat until vegetables are tender. Add garam masala and stir well. Serve with chapati or rice.",
-        image: "https://images.unsplash.com/photo-1500673922987-e212871fec22?auto=format&fit=crop&w=600&h=400&q=80"
+        image: "/lovable-uploads/eb17b1f2-0eea-4387-8b62-1d3679e637c5.png"
       }
     ],
     nutrition: {
@@ -256,7 +256,7 @@ export const recipes = {
   },
   "bhindi-masala": {
     title: "Bhindi Masala (Spiced Okra Stir-Fry)",
-    heroImage: "https://images.unsplash.com/photo-1486718448742-163732cd1544?auto=format&fit=crop&w=1920&q=80",
+    heroImage: "/lovable-uploads/4df86e9d-b7d6-4c32-bcb0-f722cbf13d7c.png",
     prepTime: "15 min",
     cookTime: "25 min",
     servings: 3,
@@ -281,27 +281,27 @@ export const recipes = {
       {
         step: "Prepare the Okra",
         details: "Wash and dry the bhindi completely (to prevent stickiness). Chop into 1-inch pieces.",
-        image: "https://images.unsplash.com/photo-1486718448742-163732cd1544?auto=format&fit=crop&w=600&h=400&q=80"
+        image: "/lovable-uploads/4df86e9d-b7d6-4c32-bcb0-f722cbf13d7c.png"
       },
       {
         step: "Cook the Bhindi",
         details: "Heat 1 tbsp oil in a pan and sauté bhindi for 5-7 minutes until slightly crisp. Remove and set aside.",
-        image: "https://images.unsplash.com/photo-1500673922987-e212871fec22?auto=format&fit=crop&w=600&h=400&q=80"
+        image: "/lovable-uploads/4df86e9d-b7d6-4c32-bcb0-f722cbf13d7c.png"
       },
       {
         step: "Make the Masala",
         details: "Add 1 tbsp oil to the same pan. Add cumin seeds and let them splutter. Add onions and sauté until golden brown. Stir in ginger-garlic paste and cook until fragrant. Add chopped tomatoes and cook until soft.",
-        image: "https://images.unsplash.com/photo-1482938289607-e212871fec22?auto=format&fit=crop&w=600&h=400&q=80"
+        image: "/lovable-uploads/c8f22b81-1991-4e3f-b4d0-18d662356231.png"
       },
       {
         step: "Add Spices",
         details: "Add turmeric, red chili powder, coriander powder, and salt. Mix well and cook for 2 minutes.",
-        image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&h=400&q=80"
+        image: "/lovable-uploads/c8f22b81-1991-4e3f-b4d0-18d662356231.png"
       },
       {
         step: "Combine & Serve",
         details: "Add sautéed bhindi back to the pan. Stir well and cook for another 5 minutes. Sprinkle garam masala and mix. Serve hot with chapati or paratha.",
-        image: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=600&h=400&q=80"
+        image: "/lovable-uploads/4df86e9d-b7d6-4c32-bcb0-f722cbf13d7c.png"
       }
     ],
     nutrition: {
@@ -322,7 +322,7 @@ export const recipes = {
   },
   "chicken-curry": {
     title: "Chicken Curry (Desi Dhaba Style)",
-    heroImage: "https://images.unsplash.com/photo-1482938289607-e212871fec22?auto=format&fit=crop&w=1920&q=80",
+    heroImage: "/lovable-uploads/000e5271-e0c0-41da-8587-4c7adcea2b4a.png",
     prepTime: "20 min",
     cookTime: "40 min",
     servings: 4,
@@ -349,22 +349,22 @@ export const recipes = {
       {
         step: "Marinate the Chicken",
         details: "In a bowl, mix chicken with yogurt, ½ tsp turmeric, and salt. Let it marinate for 30 minutes.",
-        image: "https://images.unsplash.com/photo-1482938289607-e212871fec22?auto=format&fit=crop&w=600&h=400&q=80"
+        image: "/lovable-uploads/000e5271-e0c0-41da-8587-4c7adcea2b4a.png"
       },
       {
         step: "Prepare the Masala",
         details: "Heat oil in a pan, add cumin seeds, and let them splutter. Add onions and sauté until golden brown. Stir in ginger-garlic paste and cook for a minute. Add tomato puree and cook until oil separates.",
-        image: "https://images.unsplash.com/photo-1500673922987-e212871fec22?auto=format&fit=crop&w=600&h=400&q=80"
+        image: "/lovable-uploads/c8f22b81-1991-4e3f-b4d0-18d662356231.png"
       },
       {
         step: "Cook the Chicken",
         details: "Add marinated chicken to the pan. Stir and cook on medium heat for 5 minutes. Add turmeric, red chili powder, coriander powder, and salt. Mix well and cook for 10 minutes.",
-        image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&h=400&q=80"
+        image: "/lovable-uploads/000e5271-e0c0-41da-8587-4c7adcea2b4a.png"
       },
       {
         step: "Simmer & Serve",
         details: "Add 1 cup water, cover, and simmer for 20 minutes until chicken is tender. Stir in garam masala and cook for another 5 minutes. Garnish with coriander leaves and serve with rice or roti.",
-        image: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=600&h=400&q=80"
+        image: "/lovable-uploads/000e5271-e0c0-41da-8587-4c7adcea2b4a.png"
       }
     ],
     nutrition: {
@@ -385,7 +385,7 @@ export const recipes = {
   },
   "matar-paneer": {
     title: "Matar Paneer (Peas & Cottage Cheese Curry)",
-    heroImage: "https://images.unsplash.com/photo-1500673922987-e212871fec22?auto=format&fit=crop&w=1920&q=80",
+    heroImage: "/lovable-uploads/0b6158ba-6f0e-48a5-bded-90e35ce0331d.png",
     prepTime: "15 min",
     cookTime: "35 min",
     servings: 4,
@@ -412,22 +412,22 @@ export const recipes = {
       {
         step: "Fry the Paneer",
         details: "Heat 1 tbsp oil in a pan and fry paneer cubes until golden brown. Remove and keep in warm water.",
-        image: "https://images.unsplash.com/photo-1500673922987-e212871fec22?auto=format&fit=crop&w=600&h=400&q=80"
+        image: "/lovable-uploads/0b6158ba-6f0e-48a5-bded-90e35ce0331d.png"
       },
       {
         step: "Prepare the Gravy",
         details: "Heat oil in a pan, add cumin seeds. Add onions and sauté until golden brown. Stir in ginger-garlic paste and cook for a minute. Add tomato puree and cook until oil separates.",
-        image: "https://images.unsplash.com/photo-1482938289607-e212871fec22?auto=format&fit=crop&w=600&h=400&q=80"
+        image: "/lovable-uploads/c8f22b81-1991-4e3f-b4d0-18d662356231.png"
       },
       {
         step: "Add Spices & Peas",
         details: "Add turmeric, red chili powder, coriander powder, and salt. Add peas and ½ cup water. Simmer for 5 minutes.",
-        image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&h=400&q=80"
+        image: "/lovable-uploads/0b6158ba-6f0e-48a5-bded-90e35ce0331d.png"
       },
       {
         step: "Finish with Paneer",
         details: "Add fried paneer cubes and garam masala. Cook for another 5 minutes. Serve hot with naan or rice.",
-        image: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=600&h=400&q=80"
+        image: "/lovable-uploads/0b6158ba-6f0e-48a5-bded-90e35ce0331d.png"
       }
     ],
     nutrition: {
@@ -448,7 +448,7 @@ export const recipes = {
   },
   "fish-curry": {
     title: "Fish Curry (Bengali Style - Machher Jhol)",
-    heroImage: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+    heroImage: "/lovable-uploads/52cf0d71-8526-446c-9985-41d0f87da86e.png",
     prepTime: "15 min",
     cookTime: "45 min",
     servings: 4,
@@ -472,22 +472,22 @@ export const recipes = {
       {
         step: "Marinate & Fry Fish",
         details: "Rub fish pieces with turmeric and salt. Heat mustard oil in a pan and fry fish until golden brown. Remove and set aside.",
-        image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&h=400&q=80"
+        image: "/lovable-uploads/52cf0d71-8526-446c-9985-41d0f87da86e.png"
       },
       {
         step: "Make the Gravy",
         details: "In the same oil, add mustard seeds. Add onions and sauté until golden brown. Stir in tomato puree and cook until oil separates.",
-        image: "https://images.unsplash.com/photo-1482938289607-e212871fec22?auto=format&fit=crop&w=600&h=400&q=80"
+        image: "/lovable-uploads/c8f22b81-1991-4e3f-b4d0-18d662356231.png"
       },
       {
         step: "Cook the Curry",
         details: "Add turmeric, red chili powder, and salt. Add 1 cup water and bring to a boil. Add fried fish and simmer for 10 minutes.",
-        image: "https://images.unsplash.com/photo-1500673922987-e212871fec22?auto=format&fit=crop&w=600&h=400&q=80"
+        image: "/lovable-uploads/52cf0d71-8526-446c-9985-41d0f87da86e.png"
       },
       {
         step: "Garnish & Serve",
         details: "Sprinkle garam masala. Garnish with coriander leaves and serve with rice.",
-        image: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=600&h=400&q=80"
+        image: "/lovable-uploads/52cf0d71-8526-446c-9985-41d0f87da86e.png"
       }
     ],
     nutrition: {
@@ -508,7 +508,7 @@ export const recipes = {
   },
   "rajma": {
     title: "Rajma (Red Kidney Bean Curry)",
-    heroImage: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=1920&q=80",
+    heroImage: "/lovable-uploads/c8706363-e2c3-4b21-bed2-cf2c88939fa4.png",
     prepTime: "30 min (plus overnight soaking)",
     cookTime: "50 min",
     servings: 4,
@@ -533,22 +533,22 @@ export const recipes = {
       {
         step: "Cook Rajma",
         details: "Pressure cook soaked rajma with salt for 6 whistles. Keep aside, reserving the water.",
-        image: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=600&h=400&q=80"
+        image: "/lovable-uploads/c8706363-e2c3-4b21-bed2-cf2c88939fa4.png"
       },
       {
         step: "Prepare the Gravy",
         details: "Heat oil, add cumin seeds. Sauté onions until golden brown. Add ginger-garlic paste, cook until fragrant. Stir in tomato puree and cook until oil separates.",
-        image: "https://images.unsplash.com/photo-1482938289607-e212871fec22?auto=format&fit=crop&w=600&h=400&q=80"
+        image: "/lovable-uploads/c8f22b81-1991-4e3f-b4d0-18d662356231.png"
       },
       {
         step: "Add Spices",
         details: "Add turmeric, red chili powder, and salt. Cook for 2 minutes until the spices are well integrated.",
-        image: "https://images.unsplash.com/photo-1500673922987-e212871fec22?auto=format&fit=crop&w=600&h=400&q=80"
+        image: "/lovable-uploads/c8f22b81-1991-4e3f-b4d0-18d662356231.png"
       },
       {
         step: "Simmer & Serve",
         details: "Add cooked rajma and some reserved water. Simmer for 15 minutes. Sprinkle garam masala and mix well. Serve with rice or roti.",
-        image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&h=400&q=80"
+        image: "/lovable-uploads/c8706363-e2c3-4b21-bed2-cf2c88939fa4.png"
       }
     ],
     nutrition: {

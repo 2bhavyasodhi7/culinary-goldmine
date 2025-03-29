@@ -38,7 +38,7 @@ const RecipesGrid = () => {
           <h2 className="text-4xl font-cormorant font-bold mb-3">Featured Recipes</h2>
           <div className="gold-divider mx-auto max-w-xs"></div>
           <p className="text-lg text-gray-600 mt-4 max-w-2xl mx-auto">
-            Discover our collection of premium recipes, carefully curated to bring exquisite flavors to your table.
+            Discover our collection of premium Indian recipes, carefully curated to bring authentic flavors to your table.
           </p>
         </div>
         
